@@ -1,0 +1,268 @@
+Loos:
+
+
+for
+while
+// pre tested loop
+
+do while loop
+
+while(Condition)
+{
+	Statment block;
+}
+
+
+
+do while loop: // post tesetd loop
+
+
+do
+{
+	Statment block;
+}
+while (condition);
+
+
+
+XYZ res
+-------
+
+
+menu
+item select
+food pre
+serv
+Do you want to add any item
+Y
+No
+
+
+
+
+
+
+
+
+for :
+
+int i;
+		i+1=2+1
+for(i=1;i<=100 ; i++)
+{
+	Sysout(i);
+}
+
+
+1 to 100
+1
+2
+3
+
+---
+---
+100
+
+
+WAP to accept min and max no from the user and display the no.
+
+
+
+
+
+
+
+
+for
+for( ; ; )
+
+while
+while(condition)
+{
+Stat
+}
+
+do while
+
+
+
+
+
+Nested Loops:
+
+	int i,j;
+		for(i=1;i<=5;i++)//
+		{
+			for(j=1;j<5;j++)//column
+			{
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+-------------
+
+int i,j;
+		for(i=1;i<=5;i++)//
+		{
+			for(j=1;j<=i;j++)//column
+			{
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+-------------------------
+for(i=1;i<=5;i++)//
+		{
+			for(j=5;j>=i;j--)//column
+			{
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+------------------------------
+
+*****   0 = 1
+ ****   1 = 2
+  ***   2 = 3
+   **   3
+    *   4
+int i,j,k;
+		for(i=1;i<=5;i++)//
+		{
+			for(k=1;k<i;k++)
+			{
+				System.out.print(" ");
+			}
+			
+			for(j=5;j>=i;j--)//column
+			{
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+
+------------------------------
+
+    *           i=1, j=1 k=4                     
+   ***          i=2, j=3 k=3
+  *****         i=3, j=5 k=2
+ *******        i=4, j=7 k=1
+*********       i=5, j=9,k=0
+
+int i,j,k;
+		for(i=1;i<=5;i++)// Row
+		{
+			for(k=4;k>=i;k--)
+			{
+				System.out.print(" ");
+			}
+			for(j=1;j<=2*i-1;j++)
+			{
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+-----------------------
+
+
+
+
+    *
+   * *
+  * * *
+ * * * *
+* * * * *
+ * * * *
+  * * *
+   * *
+    *
+
+	int i,j,k;
+		for(i=1;i<=5;i++)// Row
+		{
+			for(k=4;k>=i;k--)
+			{
+				System.out.print(" ");
+			}
+			for(j=1;j<=i;j++)
+			{
+				System.out.print("* ");
+			}
+			System.out.println();
+		}
+		for(i=1;i<=4;i++)
+		{
+			for(k=1;k<=i;k++)
+			{
+				System.out.print(" ");
+			}
+			for(j=4;j>=i;j--)
+			{
+				System.out.print("* ");
+			}
+			System.out.println();
+		}
+
+	}
+-------------------------------------
+
+
+1
+10
+101
+1010
+10101
+
+int i,j,k;
+		for(i=1;i<=5;i++)// Row
+		{
+			
+			for(j=1;j<=i;j++)
+			{
+				if(j%2==0)
+				{
+					System.out.print("0");
+				}
+				else
+				{
+					System.out.print("1");
+				}
+			}
+			System.out.println();
+		}
+	
+	}
+HM
+
+*********
+ *******
+  *****
+   ***
+    *
+
+
+******
+*    *
+******
+
+
+
+****
+*   *
+*   *
+****
+*
+*
+*
+
+
+
+
+
+
+
+
+
+
+
+

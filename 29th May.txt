@@ -1,0 +1,131 @@
+import java.util.Scanner;
+
+//WAP to display no from 1 to 100
+public class for_demo 
+{
+
+	public static void main(String[] args) 
+	{
+		/*
+		int i;
+		for(i=100;i>=1;i--)
+		{
+			System.out.print(i+"\t");
+			if(i%10==0)
+			{
+				System.out.println();
+			}
+		}
+		*/
+		Scanner sc=new Scanner(System.in);
+		int min,max,i;
+		
+		System.out.println("Enter the value of min");
+		min=sc.nextInt();
+		System.out.println("Enter the value of max");
+		max=sc.nextInt();
+
+		for(i=min;i<=max;i++)
+		{
+			System.out.println(i);
+		}
+	}
+
+}
+--------------------------------------------------
+import java.util.Scanner;
+
+public class while_demo {
+
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		int min,max;
+		
+		System.out.println("Enter the value of min");
+		min=sc.nextInt();
+		System.out.println("Enter the value of max");
+		max=sc.nextInt();
+		
+		while(min<=max)
+		{
+			System.out.println(min);
+			min++;
+		}
+
+	}
+
+}
+--------------------------------------------
+import java.util.Scanner;
+
+public class do_while_demo 
+{
+
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		int ch;
+		char ans;
+		System.out.println("welcome to Shri Ram Hotel");
+		
+		do
+		{
+			System.out.println("1: item ");
+			System.out.println("2: item ");
+			System.out.println("3: item ");
+			System.out.println("4: item ");
+			ch=sc.nextInt();
+			
+			System.out.println("Do you want to add any other item Y/N");
+			ans=sc.next().charAt(0);
+		}
+		while(ans=='y'||ans=='Y');
+		
+		System.out.println("Thanks for coming");
+	}
+
+}
+----------------------
+import java.util.Scanner;
+
+/*
+WAP to accept age and gender from the user
+age>60
+ m:7% RI
+ f:7.5%RI
+ */
+public class Nested_if_demo 
+{
+
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		int age;
+		char gen;
+		
+		System.out.println("Enter Your age");
+		age=sc.nextInt();
+		System.out.println("Enter Your gender");
+		gen=sc.next().charAt(0);
+		
+		//System.out.println("Age="+age+" and gender="+gen);
+		if(age>=60)
+		{
+			if(gen=='m'||gen=='M')
+			{
+				System.out.println("7% RI");
+			}
+			else
+			{
+				System.out.println("7.5% RI");
+			}
+		}
+		else
+		{
+			System.out.println("5% RI");
+		}
+
+	}
+
+}
